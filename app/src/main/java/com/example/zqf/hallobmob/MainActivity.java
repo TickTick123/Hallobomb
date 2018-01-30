@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 if(e==null){
                     Toast.makeText(MainActivity.this,"添加数据成功，返回objectId为：" + objectId,Toast.LENGTH_LONG).show();
                 }else{
-                    Toast.makeText(MainActivity.this,"创建数据失败：" + e.getMessage(),Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"创建数据失败：" + e.getMessage(),Toast.LENGTH_LONG).show();      //hahaha
                 }
             }
         });
