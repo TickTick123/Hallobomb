@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Button button1=findViewById(R.id.button);
+
+        Button button1=findViewById(R.id.button);               //江浩的按钮
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,5 +42,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button2=findViewById(R.id.button2);              //张启帆的按钮
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,ZQF.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
 }
