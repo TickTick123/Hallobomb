@@ -52,6 +52,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button button3 =findViewById(R.id.button3);              //ck的按钮
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Ck.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }

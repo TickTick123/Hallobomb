@@ -31,6 +31,7 @@
         </activity>
         <activity android:name=".JH"></activity>
         <activity android:name=".ZQF"></activity>
+        <activity android:name=".Ck"></activity>
     </application>
 
 </manifest>
