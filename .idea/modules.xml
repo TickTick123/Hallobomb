@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hallobomb.iml" filepath="$PROJECT_DIR$/Hallobomb.iml" />
-      <module fileurl="file://D:\Documents\Downloads\Hallobomb-master\Hallobomb-master\Hallobomb.iml" filepath="D:\Documents\Downloads\Hallobomb-master\Hallobomb-master\Hallobomb.iml" />
-      <module fileurl="file://D:\git-exercise\Hallobomb\Hallobomb-master.iml" filepath="D:\git-exercise\Hallobomb\Hallobomb-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Documents\Downloads\Hallobomb-master\Hallobomb-master\app\app.iml" filepath="D:\Documents\Downloads\Hallobomb-master\Hallobomb-master\app\app.iml" />
     </modules>
   </component>
 </project>
