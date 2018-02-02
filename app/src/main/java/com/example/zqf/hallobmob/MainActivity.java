@@ -60,6 +60,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button button4=findViewById(R.id.button4);//田桂源按钮
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,tgy_main.class);
+                startActivity(intent);
+            }
+        });
 
 
 
