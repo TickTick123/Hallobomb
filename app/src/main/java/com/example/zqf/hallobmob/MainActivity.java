@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Bmob.initialize(this,"952c699bad14188ea5ef2af20da327b6");
+        Bmob.initialize(this,"952c699bad14188ea5ef2af20da327b6");     //初始化只需要一次
         Person p2 = new Person();
         p2.setName("lucky");
         p2.setAddress("北京海淀");
@@ -57,6 +57,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this,Ck.class);
+                startActivity(intent);
+            }
+        });
+        Button button4=findViewById(R.id.button4);//田桂源按钮
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,tgy_main.class);
                 startActivity(intent);
             }
         });

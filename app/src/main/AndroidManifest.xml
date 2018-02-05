@@ -29,9 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JH"></activity>
-        <activity android:name=".ZQF"></activity>
-        <activity android:name=".Ck"></activity>
+        <activity android:name=".JH" />
+        <activity android:name=".ZQF" />
+        <activity android:name=".Ck" />
+        <activity android:name=".tgy_main"></activity>
     </application>
 
 </manifest>
