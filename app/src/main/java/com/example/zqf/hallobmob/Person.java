@@ -26,4 +26,8 @@ public class Person extends BmobObject {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public String toString(){
+        return "Name:"+name+"Address:"+address;
+    }
 }
