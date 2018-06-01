@@ -1,9 +1,11 @@
-package com.example.zqf.hallobmob;
+package com.example.zqf.hallobmob.other;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.example.zqf.hallobmob.R;
 
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;

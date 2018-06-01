@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.zqf.hallobmob.tgy_main">
+    tools:context="com.example.zqf.hallobmob.other.tgy_main">
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"

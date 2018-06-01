@@ -29,10 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JH" />
-        <activity android:name=".ZQF" />
-        <activity android:name=".Ck" />
-        <activity android:name=".tgy_main"></activity>
+        <activity android:name=".other.JH" />
+        <activity android:name=".other.ZQF" />
+        <activity android:name=".other.Ck" />
+        <activity android:name=".other.tgy_main"></activity>
     </application>
 
 </manifest>

@@ -8,6 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.zqf.hallobmob.bean.Order;
+import com.example.zqf.hallobmob.other.Ck;
+import com.example.zqf.hallobmob.other.JH;
+import com.example.zqf.hallobmob.other.ZQF;
+import com.example.zqf.hallobmob.other.tgy_main;
+
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
@@ -18,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Bmob.initialize(this,"952c699bad14188ea5ef2af20da327b6");     //初始化只需要一次
-        Person p2 = new Person();
-        p2.setName("lucky");
+        Bmob.initialize(this,"14ad818ac5ca96d7f6166b841450afee");     //初始化只需要一次
+        Order p2 = new Order();
+        //p2.setSum(225);
         p2.setAddress("北京海淀");
         Log.e("abc","Bomb太厉害了！");
         p2.save(new SaveListener<String>() {

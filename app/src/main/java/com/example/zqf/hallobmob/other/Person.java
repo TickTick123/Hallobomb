@@ -1,4 +1,4 @@
-package com.example.zqf.hallobmob;
+package com.example.zqf.hallobmob.other;
 
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobObject;
