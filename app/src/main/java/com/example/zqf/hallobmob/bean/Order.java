@@ -7,78 +7,78 @@ import cn.bmob.v3.BmobObject;
 
 /**
  * Created by zqf on 6/1/2018.hallobmob*/
- public class Order extends BmobObject implements Serializable {
- private List<Good> goods;   //????
- private User user;   //???
- private String address;   //????
- private String state;   //?????????????????
- private String tips;   //??
- private String evaluate;   //??
- private Integer from;   //0:???1????2????3????4???
- private Float sum;//??
+public class Order extends BmobObject implements Serializable {
+ private List<Good> goods;   //商品集合
+ private User user;   //购买者
+ private String address;   //收货地址
+ private String state;   //订单状态（配送中，待评价，已完成）
+ private String tips;   //备注
+ private String evaluate;   //评价
+ private Integer from;   //0:超市，1：数码，2：快递，3：打印，4：租赁
+ private Float sum;//总价
 
  public Float getSum() {
- return sum;
+  return sum;
  }
 
  public void setSum(Float sum) {
- this.sum = sum;
+  this.sum = sum;
  }
 
  public List<Good> getGoods() {
- return goods;
+  return goods;
  }
 
  public void setGoods(List<Good> goods) {
- this.goods = goods;
+  this.goods = goods;
  }
 
  public User getUser() {
- return user;
+  return user;
  }
 
  public void setUser(User user) {
- this.user = user;
+  this.user = user;
  }
 
  public String getAddress() {
- return address;
+  return address;
  }
 
  public void setAddress(String address) {
- this.address = address;
+  this.address = address;
  }
 
  public String getState() {
- return state;
+  return state;
  }
 
  public void setState(String state) {
- this.state = state;
+  this.state = state;
  }
 
  public String getTips() {
- return tips;
+  return tips;
  }
 
  public void setTips(String tips) {
- this.tips = tips;
+  this.tips = tips;
  }
 
  public String getEvaluate() {
- return evaluate;
+  return evaluate;
  }
 
  public void setEvaluate(String evaluate) {
- this.evaluate = evaluate;
+  this.evaluate = evaluate;
  }
 
  public Integer getFrom() {
- return from;
+  return from;
  }
 
  public void setFrom(Integer from) {
- this.from = from;
+  this.from = from;
  }
- }
+}
 

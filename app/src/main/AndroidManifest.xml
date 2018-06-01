@@ -17,9 +17,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/loge"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/loge"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -29,10 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".other.JH" />
-        <activity android:name=".other.ZQF" />
-        <activity android:name=".other.Ck" />
-        <activity android:name=".other.tgy_main"></activity>
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".Good_detailActivity" />
+
     </application>
 
 </manifest>

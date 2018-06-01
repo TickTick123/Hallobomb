@@ -10,18 +10,27 @@ import cn.bmob.v3.datatype.BmobFile;
  * Created by zqf on 6/1/2018.
  */
 
-public class User extends BmobUser {
-    // ??????????
+public class User extends BmobUser{
+    // 父类中已经存在的属性
     // private String objectid;
-    // private String username;??????????
+    // private String username;手机号（可用于登录）
     // private String password;
-    // private String mobilePhoneNumber  ??????????
-    // private String email;??????????
-    private String nicName;             //??
-    private List<String> address=new ArrayList<>();           //????
-    private String state; 		     // ??
-    private BmobFile picUser; 	// ??
-    private String sex;          //??
+    // private String mobilePhoneNumber  手机号（可用于登录）
+    // private String email;手机号（可用于登录）
+    private String nicName;             //昵称
+    private List<String> address=new ArrayList<>();           //收货地址
+    private String state; 		     // 状态
+    private BmobFile picUser; 	// 头像
+    private String sex;          //性别
+    private List<Good> goods;  //收藏物品
+
+    public List<Good> getGoods() {
+        return goods;
+    }
+
+    public void setGoods(List<Good> goods) {
+        this.goods = goods;
+    }
 
     public String getSex() { return sex; }
 
