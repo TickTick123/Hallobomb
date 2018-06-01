@@ -87,21 +87,7 @@ public class OrderActivity extends AppCompatActivity {
         but17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(but17.getText().equals("确认收货")){
-                    tx24.setText("待评价");
-                    but17.setText("写评价");
-                }else if(but17.getText().equals("写评价")){
-                    final EditText x = new EditText(OrderActivity.this);
-                    new AlertDialog.Builder(OrderActivity.this).setTitle("请填写评价").setView(x)
-                            .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-                                    tx16.setText(x.getText().toString());
-                                    tx24.setText("已完成");
-                                }
-                            }).show();
-                    but17.setVisibility(View.INVISIBLE);
-                }
+                but17.setVisibility(View.INVISIBLE);
             }
         });
 
